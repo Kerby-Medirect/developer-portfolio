@@ -1,0 +1,213 @@
+[
+  {
+    "id": "ecommerce-platform",
+    "title": "E-Commerce Platform",
+    "description": "A full-stack e-commerce platform with modern UI, payment integration, and admin dashboard.",
+    "longDescription": "A comprehensive e-commerce solution built with Next.js and Node.js, featuring user authentication, product management, shopping cart functionality, payment processing with Stripe, and a complete admin dashboard for managing orders and inventory.",
+    "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "Next.js", "icon": "⚛️", "color": "#000000" },
+      { "name": "TypeScript", "icon": "📘", "color": "#3178C6" },
+      { "name": "Node.js", "icon": "🟢", "color": "#339933" },
+      { "name": "MongoDB", "icon": "🍃", "color": "#47A248" },
+      { "name": "Stripe", "icon": "💳", "color": "#635BFF" }
+    ],
+    "liveUrl": "https://ecommerce-demo.vercel.app",
+    "githubUrl": "https://github.com/kerbymedirect/ecommerce-platform",
+    "featured": true,
+    "createdAt": "2024-01-15",
+    "category": "web",
+    "challenges": [
+      "Implementing secure payment processing",
+      "Managing complex state across multiple components",
+      "Optimizing performance for large product catalogs"
+    ],
+    "solutions": [
+      "Used Stripe's secure payment APIs with proper error handling",
+      "Implemented Redux Toolkit for predictable state management",
+      "Added pagination, lazy loading, and image optimization"
+    ],
+    "inspiration": "Wanted to create a modern alternative to traditional e-commerce platforms with better UX and performance.",
+    "purpose": "To provide small businesses with an affordable, customizable e-commerce solution."
+  },
+  {
+    "id": "social-media-dashboard",
+    "title": "Social Media Dashboard",
+    "description": "A comprehensive social media analytics dashboard with real-time insights and engagement tracking.",
+    "longDescription": "A powerful analytics platform that aggregates data from multiple social media platforms, providing detailed insights into audience engagement, post performance, and growth trends with beautiful visualizations and automated reporting.",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1504384308090-c894fdcc538d?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "React", "icon": "⚛️", "color": "#61DAFB" },
+      { "name": "Python", "icon": "🐍", "color": "#3776AB" },
+      { "name": "Django", "icon": "🎯", "color": "#092E20" },
+      { "name": "PostgreSQL", "icon": "🐘", "color": "#336791" },
+      { "name": "Chart.js", "icon": "📊", "color": "#FF6384" }
+    ],
+    "liveUrl": "https://social-dashboard-demo.vercel.app",
+    "githubUrl": "https://github.com/kerbymedirect/social-media-dashboard",
+    "featured": true,
+    "createdAt": "2024-02-28",
+    "category": "web",
+    "challenges": [
+      "Integrating multiple social media APIs with different rate limits",
+      "Processing and visualizing large datasets efficiently",
+      "Creating real-time updates without overwhelming the server"
+    ],
+    "solutions": [
+      "Implemented API rate limiting and intelligent caching strategies",
+      "Used Django Celery for background data processing",
+      "Added WebSocket connections for real-time dashboard updates"
+    ],
+    "inspiration": "Needed a unified view of social media performance across multiple platforms for better decision making.",
+    "purpose": "To help content creators and businesses understand their social media impact and optimize their strategies."
+  },
+  {
+    "id": "fitness-tracker-mobile",
+    "title": "FitTrack Mobile App",
+    "description": "A comprehensive fitness tracking mobile app with workout plans, nutrition logging, and progress analytics.",
+    "longDescription": "A cross-platform mobile application built with React Native that helps users track their fitness journey with features like custom workout routines, meal planning, progress photos, social challenges, and integration with wearable devices.",
+    "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1434596922112-19c563067271?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1538805060514-97d9cc17730c?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "React Native", "icon": "📱", "color": "#61DAFB" },
+      { "name": "TypeScript", "icon": "📘", "color": "#3178C6" },
+      { "name": "Firebase", "icon": "🔥", "color": "#FFCA28" },
+      { "name": "Redux", "icon": "🔄", "color": "#764ABC" },
+      { "name": "Expo", "icon": "⚡", "color": "#000020" }
+    ],
+    "liveUrl": "https://apps.apple.com/app/fittrack",
+    "githubUrl": "https://github.com/kerbymedirect/fittrack-mobile",
+    "featured": true,
+    "createdAt": "2024-03-10",
+    "category": "mobile",
+    "challenges": [
+      "Handling offline functionality for workout tracking",
+      "Integrating with device health APIs across iOS and Android",
+      "Optimizing battery usage for background tracking"
+    ],
+    "solutions": [
+      "Implemented Redux Persist for offline data synchronization",
+      "Used React Native Health for cross-platform health data access",
+      "Optimized location and sensor usage with intelligent batching"
+    ],
+    "inspiration": "Wanted to create a fitness app that actually motivates users with social features and personalized insights.",
+    "purpose": "To make fitness tracking more engaging and help users build sustainable healthy habits."
+  },
+  {
+    "id": "portfolio-website",
+    "title": "Creative Portfolio Website",
+    "description": "A stunning portfolio website for a creative agency with smooth animations and interactive elements.",
+    "longDescription": "A visually striking portfolio website built for a creative design agency, featuring smooth scroll animations, interactive project showcases, dynamic typography, and a content management system for easy updates.",
+    "thumbnail": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1561070791-2526d30994b5?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "Next.js", "icon": "⚛️", "color": "#000000" },
+      { "name": "GSAP", "icon": "🎬", "color": "#88CE02" },
+      { "name": "Sanity", "icon": "📝", "color": "#F03E2F" },
+      { "name": "TailwindCSS", "icon": "🎨", "color": "#06B6D4" }
+    ],
+    "liveUrl": "https://creative-agency-portfolio.vercel.app",
+    "githubUrl": "https://github.com/kerbymedirect/creative-portfolio",
+    "featured": false,
+    "createdAt": "2023-12-05",
+    "category": "web",
+    "challenges": [
+      "Creating smooth scroll animations without performance issues",
+      "Building a flexible CMS integration for non-technical users",
+      "Ensuring animations work well on mobile devices"
+    ],
+    "solutions": [
+      "Used GSAP ScrollTrigger with performance optimizations",
+      "Implemented Sanity CMS with custom preview modes",
+      "Added reduced motion preferences and mobile-specific animations"
+    ],
+    "inspiration": "Inspired by award-winning agency websites and the need for better creative portfolio presentations.",
+    "purpose": "To showcase creative work in an engaging way that reflects the agency's innovative approach."
+  },
+  {
+    "id": "inventory-management",
+    "title": "Inventory Management System",
+    "description": "A robust inventory management system for small to medium businesses with real-time tracking.",
+    "longDescription": "A comprehensive inventory management solution featuring real-time stock tracking, automated reorder points, supplier management, barcode scanning, detailed reporting, and integration with popular accounting software.",
+    "thumbnail": "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1586864387967-d02ef85d93e8?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "Vue.js", "icon": "💚", "color": "#4FC08D" },
+      { "name": "Laravel", "icon": "🎭", "color": "#FF2D20" },
+      { "name": "MySQL", "icon": "🗄️", "color": "#4479A1" },
+      { "name": "Redis", "icon": "🔴", "color": "#DC382D" }
+    ],
+    "liveUrl": "https://inventory-system-demo.com",
+    "githubUrl": "https://github.com/kerbymedirect/inventory-management",
+    "featured": false,
+    "createdAt": "2023-08-22",
+    "category": "web",
+    "challenges": [
+      "Handling concurrent inventory updates from multiple users",
+      "Creating flexible reporting system for different business needs",
+      "Integrating with various barcode scanner hardware"
+    ],
+    "solutions": [
+      "Implemented database transactions and optimistic locking",
+      "Built modular reporting engine with custom query builder",
+      "Created abstraction layer for different scanner APIs"
+    ],
+    "inspiration": "Saw small businesses struggling with Excel-based inventory tracking and wanted to provide a better solution.",
+    "purpose": "To help small businesses streamline their inventory operations and reduce manual errors."
+  },
+  {
+    "id": "ai-content-generator",
+    "title": "AI Content Generator",
+    "description": "An AI-powered content generation tool for marketers and content creators with multiple output formats.",
+    "longDescription": "A sophisticated content generation platform leveraging AI to help marketers and content creators produce high-quality blog posts, social media content, email campaigns, and marketing copy with customizable tone and style options.",
+    "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1620712943543-bcc4688e7485?w=800&h=600&fit=crop&crop=center"
+    ],
+    "techStack": [
+      { "name": "React", "icon": "⚛️", "color": "#61DAFB" },
+      { "name": "Node.js", "icon": "🟢", "color": "#339933" },
+      { "name": "OpenAI", "icon": "🤖", "color": "#412991" },
+      { "name": "MongoDB", "icon": "🍃", "color": "#47A248" },
+      { "name": "Stripe", "icon": "💳", "color": "#635BFF" }
+    ],
+    "liveUrl": "https://ai-content-gen.vercel.app",
+    "githubUrl": "https://github.com/kerbymedirect/ai-content-generator",
+    "featured": false,
+    "createdAt": "2024-01-08",
+    "category": "web",
+    "challenges": [
+      "Managing API costs and rate limits for AI services",
+      "Creating intuitive UI for complex content generation options",
+      "Implementing proper content moderation and safety filters"
+    ],
+    "solutions": [
+      "Built intelligent caching and request optimization system",
+      "Designed progressive disclosure UI with guided workflows",
+      "Integrated multiple content safety APIs and custom filters"
+    ],
+    "inspiration": "Recognized the potential of AI to democratize content creation for small businesses and individual creators.",
+    "purpose": "To make high-quality content creation accessible to everyone, regardless of writing experience or budget."
+  }
+]

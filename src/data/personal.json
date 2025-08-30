@@ -1,0 +1,89 @@
+{
+  "name": "Kerby Medirect",
+  "tagline": "Turning ideas into code and interactive experiences",
+  "bio": "I'm a passionate full-stack developer with 3+ years of experience creating digital solutions that make a difference. I love turning complex problems into simple, beautiful, and intuitive designs. When I'm not coding, you'll find me exploring new technologies or contributing to open-source projects.",
+  "location": "Florida, USA",
+  "email": "hello@kerbymedirect.dev",
+  "socialLinks": [
+    {
+      "name": "GitHub",
+      "url": "https://github.com/yourusername",
+      "icon": "github"
+    },
+    {
+      "name": "LinkedIn",
+      "url": "https://linkedin.com/in/yourname",
+      "icon": "linkedin"
+    },
+    {
+      "name": "Twitter",
+      "url": "https://twitter.com/yourusername",
+      "icon": "twitter"
+    }
+  ],
+  "skills": [
+    {
+      "name": "React",
+      "level": 90,
+      "category": "frontend"
+    },
+    {
+      "name": "Next.js",
+      "level": 85,
+      "category": "frontend"
+    },
+    {
+      "name": "TypeScript",
+      "level": 80,
+      "category": "frontend"
+    },
+    {
+      "name": "Node.js",
+      "level": 75,
+      "category": "backend"
+    },
+    {
+      "name": "Python",
+      "level": 70,
+      "category": "backend"
+    },
+    {
+      "name": "PostgreSQL",
+      "level": 65,
+      "category": "backend"
+    },
+    {
+      "name": "AWS",
+      "level": 60,
+      "category": "tools"
+    },
+    {
+      "name": "Docker",
+      "level": 55,
+      "category": "tools"
+    }
+  ],
+  "experience": [
+    {
+      "title": "Senior Frontend Developer",
+      "company": "Tech Startup Inc.",
+      "period": "2022 - Present",
+      "description": "Lead frontend development for a SaaS platform serving 10k+ users. Implemented modern React patterns and improved performance by 40%.",
+      "technologies": ["React", "TypeScript", "Next.js", "TailwindCSS"]
+    },
+    {
+      "title": "Full Stack Developer",
+      "company": "Digital Agency",
+      "period": "2021 - 2022",
+      "description": "Built custom web applications for clients across various industries. Collaborated with designers and product managers to deliver pixel-perfect solutions.",
+      "technologies": ["Vue.js", "Node.js", "MongoDB", "Express"]
+    },
+    {
+      "title": "Junior Developer",
+      "company": "Local Software Company",
+      "period": "2020 - 2021",
+      "description": "Started my professional journey building internal tools and maintaining legacy systems. Gained experience in debugging and code optimization.",
+      "technologies": ["JavaScript", "PHP", "MySQL", "jQuery"]
+    }
+  ]
+}
