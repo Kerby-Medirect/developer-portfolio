@@ -74,7 +74,7 @@ export function Hero() {
             initial={{ opacity: 0, scale: 0.8 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.25, duration: 0.5 }}
-            className="flex justify-center -my-2"
+            className="flex justify-center -my-4"
           >
             <Image
               src="/kerby-animated-avatar.gif"
@@ -92,7 +92,7 @@ export function Hero() {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.3 }}
-            className="text-4xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent -mt-2"
+            className="text-4xl sm:text-6xl lg:text-7xl font-bold bg-gradient-to-r from-primary to-secondary bg-clip-text text-transparent -mt-6"
           >
             {personalData.name}
           </motion.h1>
